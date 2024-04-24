@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Website Archiver",
+    "description": "Extension for archiving websites and bypassing paywalls.",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon" : "./assets/icon.png"
+    },
+    "permissions": ["tabs"],
+    "icons": {
+        "16" : "./assets/icon.png",
+        "48" : "./assets/icon.png",
+        "128": "./assets/icon.png"
+    }
+}
